@@ -1,7 +1,7 @@
 # UncensorLlamaIsBetterCensor
 
 ## Introduction
-Source code of [**SomethingAwful at PAN 2024 TextDetox: Uncensored Llama 3 Helps to Censor Better**](soon)
+Source code of [**SomethingAwful at PAN 2024 TextDetox: Uncensored Llama 3 Helps to Censor Better**](https://ceur-ws.org/Vol-3740/paper-273.pdf)
 
 This approach is ranked the 1st place in the Human Evaluation Results and 6st in Automatic Evaluation Results
 
@@ -25,27 +25,13 @@ This approach is ranked the 1st place in the Human Evaluation Results and 6st in
 | 6 | **SomethingAwful** | 0.431   | 0.522 | 0.475 | 0.551 | 0.147 | 0.514 | 0.269 | 0.584 | 0.516 | 0.299 |
 
 ## Quick Start
-Simple demo for our training and testing procedures.
+For text detox use 
 ```shell
-demo.ipynb
+bash run_detox.sh
 ```
-We provide all training and testing data in **data** folder.
+We provide all training and testing data in **Data** folder.
 
-### Details 
-#### preprocess
-
-#### run
-
-#### submission
-
-### Evaluation
-
-### Reproduction
-
-Our best model can be downloaded here 
-
-
-### Reference
+For removing a censor from a model use baukit_orth_act_steering.ipynb based on [wassname repo](https://gist.github.com/wassname/42aba7168bb83e278fcfea87e70fa3af)
 
 ### How do I cite this work?
 
